@@ -1,0 +1,11 @@
+D:\Study\LearnToSite\Unity_State\Unity_State\bin\Debug\netcoreapp2.0\Unity_State.deps.json
+D:\Study\LearnToSite\Unity_State\Unity_State\bin\Debug\netcoreapp2.0\Unity_State.runtimeconfig.json
+D:\Study\LearnToSite\Unity_State\Unity_State\bin\Debug\netcoreapp2.0\Unity_State.runtimeconfig.dev.json
+D:\Study\LearnToSite\Unity_State\Unity_State\bin\Debug\netcoreapp2.0\Unity_State.dll
+D:\Study\LearnToSite\Unity_State\Unity_State\bin\Debug\netcoreapp2.0\Unity_State.pdb
+D:\Study\LearnToSite\Unity_State\Unity_State\obj\Debug\netcoreapp2.0\Unity_State.csprojAssemblyReference.cache
+D:\Study\LearnToSite\Unity_State\Unity_State\obj\Debug\netcoreapp2.0\Unity_State.csproj.CoreCompileInputs.cache
+D:\Study\LearnToSite\Unity_State\Unity_State\obj\Debug\netcoreapp2.0\Unity_State.AssemblyInfoInputs.cache
+D:\Study\LearnToSite\Unity_State\Unity_State\obj\Debug\netcoreapp2.0\Unity_State.AssemblyInfo.cs
+D:\Study\LearnToSite\Unity_State\Unity_State\obj\Debug\netcoreapp2.0\Unity_State.dll
+D:\Study\LearnToSite\Unity_State\Unity_State\obj\Debug\netcoreapp2.0\Unity_State.pdb
