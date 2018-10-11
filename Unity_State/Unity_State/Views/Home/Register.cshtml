@@ -1,7 +1,7 @@
 ﻿@{
     ViewData["Title"] = "Регистрация";
 }
-
+@model Unity_State.Models.ClientModel
 
 <body>
     <h1>
@@ -9,9 +9,17 @@
     </h1>
 
 
-    <form>
-   <p> login <input type="text" name="login" /> </p>
-    
+    <form method="post">
+        <p>
+            login <br />
+            <input type="text" name="login" />
+        </p>
+        <p>
+            password <br />
+            <input type="password" name="password" />
+        </p>
+        <input class="rd"  n type="radio" name="gender" value="male" checked> Male<br>
+        <input class="rd" type="radio" name="gender" value="female"> Female<br>
     </form>
   
 </body>
