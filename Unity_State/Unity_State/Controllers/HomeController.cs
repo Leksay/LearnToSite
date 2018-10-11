@@ -22,7 +22,19 @@ namespace Unity_State.Controllers
             return View();
         }
 
-        public IActionResult Contact()
+        public IActionResult Catalog()
+        {
+            ViewData["Message"] = "Your contact page.";
+
+            return View();
+        }
+        public IActionResult Register()
+        {
+            ViewData["Message"] = "Your contact page.";
+
+            return View();
+        }
+        public IActionResult News()
         {
             ViewData["Message"] = "Your contact page.";
 
