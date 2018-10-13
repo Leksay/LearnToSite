@@ -45,5 +45,43 @@ namespace Unity_State.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        public IActionResult User()
+        {
+            return View();
+        }
+
+        public IActionResult CheckEmail(string email)
+        {
+            if (email == "admin@mail.ru")
+                return Json(false);
+            else
+                return Json(true);
+        }
+
+        [HttpPost]
+        public IActionResult Create(ClientModel person)
+        {
+            if (ModelState.IsValid)
+            {
+                // Успех
+            }
+            else
+            {
+                // Неудача
+            }
+
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Registration (ClientModel cm)
+        {
+            Console.WriteLine(cm.login);
+            Console.WriteLine(cm.password);
+            Console.WriteLine(cm.gender.ToString());
+            return RedirectToAction("User");
+        }
+
     }
 }
