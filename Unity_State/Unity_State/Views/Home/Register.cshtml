@@ -10,32 +10,40 @@
 
 
     <form asp-controller="Home" asp-action="Registration" method="post">
-        <div class="validation" asp-validation-summary="ModelOnly"></div>
+        @Html.ValidationSummary()
+        <div class="validation" asp-validation-summary="ModelOnly">
+
+        </div>
         <p>
             login <br />
-
-            <input type="text" asp-controller="Home" asp-for="login" name="login" />
+            <input type="text" asp-controller="Home" asp-for="login" name="login"  />
             <span asp-validation-for="login"></span>
         </p>
         <p>
             password <br />
-
-            <input type="password" name="password" />
+            <input type="password" name="password" asp-for="password" />
             <span asp-validation-for="password"></span>
         </p>
         <input class="rd" n type="radio" name="gender" value="male" checked> Male<br>
         <input class="rd" type="radio" name="gender" value="female"> Female<br>
         <p>
             phone number <br />
-            
+
             <input type="number" name="number" asp-for="number" />
             <span asp-validation-for="number"></span>
         </p>
         <p>
             email <br />
 
-            <input type="email" name="email" value="" />
+            <input type="email" name="email" value="" asp-for="email"/>
             <span asp-validation-for="email"></span>
+        </p>
+
+        <p>
+            age <br />
+
+            <input type="number" name="age" value="" asp-for="age"/>
+            <span asp-validation-for="age"></span>
         </p>
         <input class="button" type="submit" name="reg_button" value="Register" />
     </form>
